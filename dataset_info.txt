@@ -1,0 +1,46 @@
+DATASET INFORMATION
+-------------------
+
+Bu projede kullanılan veri seti tamamen tarafımdan çekilmiş özgün görüntülerden oluşmaktadır.
+Veri seti iki sınıftan oluşmaktadır:
+
+1. cats  (kediler)
+2. dolls (oyuncaklar)
+
+Her sınıf için 50’den fazla görüntü bulunmaktadır.
+Toplam görüntü sayısı: yaklaşık 120–150 arası.
+
+Görüntüler farklı açılardan, farklı ışık koşullarında ve farklı arka planlarda çekilmiştir.
+Tüm görüntüler 128×128 piksel boyutuna dönüştürülmüştür.
+
+-------------------
+VERİ SETİ KONUMU
+-------------------
+
+Görüntülerin tamamı Google Drive üzerinde saklanmaktadır.  
+GitHub'a yüklenmemiştir çünkü dosyalar büyük boyutludur.
+
+Drive konumu:
+
+/content/drive/MyDrive/Colab_Notebooks/BLG405_Makine_Ogrenmesi/CNN_Project_Dataset_CLEAN
+
+Train/val/test ayrımı şu klasörde oluşturulmuştur:
+
+/content/drive/MyDrive/Colab_Notebooks/BLG405_Makine_Ogrenmesi/dataset_split_model2
+/content/drive/MyDrive/Colab_Notebooks/BLG405_Makine_Ogrenmesi/dataset_split_model3
+
+-------------------
+VERİ ÖN İŞLEME
+-------------------
+
+- Tüm görseller 128×128 piksel olacak şekilde yeniden boyutlandırıldı.
+- HEIC formatındaki dosyalar JPEG formatına dönüştürüldü.
+- Veri seti %70 train, %15 validation, %15 test olacak şekilde ayrıldı.
+- Klasör yapısı Keras ImageDataGenerator ile uyumlu hale getirildi.
+
+-------------------
+KULLANIM NOTU
+-------------------
+
+Notebook’ları çalıştırmadan önce Drive yolunun doğru olduğundan emin olun.
+Veri seti yalnızca eğitim için kullanılmıştır ve üçüncü kişilerle paylaşılmamıştır.
