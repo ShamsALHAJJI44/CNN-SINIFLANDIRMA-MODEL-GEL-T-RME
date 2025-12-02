@@ -89,7 +89,7 @@ Aşağıdaki iyileştirmeler yapılmıştır:
 | Model  | Yaklaşım              | Test Accuracy |
 |--------|------------------------|----------------|
 | Model1 | Transfer Learning     | **%96** |
-| Model2 | Temel CNN             | %90–100 |
+| Model2 | Temel CNN             | ~%90 |
 | Model3 | Geliştirilmiş CNN     | **%93** |
 
 **Genel değerlendirme:**  
